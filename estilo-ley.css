@@ -10,8 +10,9 @@ body {
 
 div.container.temporada1 {
     display: grid;
-    grid-template-columns: repeat(4, 23%);
-    gap: 1em;
+    grid-template-columns: repeat(4, 14em);
+    grid-template-rows: repeat(6, 14em);
+    gap: 0.2em;
     justify-content: space-between;
 }
 
@@ -22,14 +23,50 @@ a {
 a.ep1,
 a.card2,
 a.card3,
-a.card4 {
+a.card4,
+a.card5,
+a.card6,
+a.card7,
+a.card8,
+a.card9,
+a.card10,
+a.card11,
+a.card12,
+a.card13,
+a.card14,
+a.card15,
+a.card16,
+a.card17,
+a.card18,
+a.card19,
+a.card20,
+a.card21,
+a.card22 {
     width: 12.5em;
 }
 
 a.ep1:hover,
 a.card2:hover,
 a.card3:hover,
-a.card4:hover {
+a.card4:hover,
+a.card5:hover,
+a.card6:hover,
+a.card7:hover,
+a.card8:hover,
+a.card9:hover,
+a.card10:hover,
+a.card11:hover,
+a.card12:hover,
+a.card13:hover,
+a.card14:hover,
+a.card15:hover,
+a.card16:hover,
+a.card17:hover,
+a.card18:hover,
+a.card19:hover,
+a.card20:hover,
+a.card21:hover,
+a.card22:hover {
     width: 14em;
     transition: 500ms;
 }
